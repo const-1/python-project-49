@@ -1,8 +1,57 @@
-*.egg-info
-__pycache__
+### Python ###
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
 dist/
-*.pyc
-.venv
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Dependency management (uv/poetry)
+*.lock
+
+
+### Tests and coverage ###
 .coverage
 coverage.xml
-*_cache/
+.pytest_cache/
+
+
+### Linters and type checkers ###
+# Ruff and Mypy caches
+.ruff_cache/
+.mypy_cache/
+
+
+### Secrets and local configurations ###
+# Environment variables and sensitive data
+.env
+secrets.yml
+
+
+### IDE/Editors ###
+# IDE-specific files
+.vscode/
+.idea/
+# Swap files
+*.swp
+*.swo
+
+
+### OS-specific files ###
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+
+### Temporary files ###
+# Backup files
+*~
