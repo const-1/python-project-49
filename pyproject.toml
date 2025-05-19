@@ -36,3 +36,6 @@ brain-prime = "brain_games.scripts.brain_prime:main"
 preview = true
 select = ["E", "F", "I", "C90"]
 
+[tool.ruff]
+line-length = 96  # instead of standard 80
+select = ["E", "F", "W", "I"]
