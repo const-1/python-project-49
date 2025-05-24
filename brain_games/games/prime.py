@@ -3,7 +3,9 @@
 #
 import random
 
+
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def is_prime(n: int) -> bool:
     if n < 2:
@@ -12,6 +14,7 @@ def is_prime(n: int) -> bool:
         if n % i == 0:
             return False
     return True
+
 
 def generate_round():
     number = random.randint(2, 100)  # Generate number from 2 to 100

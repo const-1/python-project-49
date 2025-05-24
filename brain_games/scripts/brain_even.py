@@ -8,5 +8,6 @@ from brain_games.games.even import DESCRIPTION, generate_round
 def main():
     run_engine(DESCRIPTION, generate_round)
 
+
 if __name__ == "__main__":
     main()

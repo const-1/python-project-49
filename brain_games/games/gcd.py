@@ -3,12 +3,15 @@
 #
 import random
 
+
 DESCRIPTION = "Find the greatest common divisor of given numbers."
+
 
 def find_gcd(a: int, b: int) -> int:
     while b:
         a, b = b, a % b
     return a
+
 
 def generate_round():
     num1 = random.randint(1, 100)

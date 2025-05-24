@@ -3,7 +3,9 @@
 #
 import random
 
+
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def generate_round():
     number = random.randint(1, 100)
