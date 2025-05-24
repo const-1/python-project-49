@@ -1,4 +1,6 @@
-# brain_games/games/gcd.py
+# brain games: greatest common divisor logic
+#
+#
 import random
 
 DESCRIPTION = "Find the greatest common divisor of given numbers."

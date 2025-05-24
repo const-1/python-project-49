@@ -39,3 +39,6 @@ select = ["E", "F", "I", "C90"]
 [tool.ruff]
 line-length = 96  # instead of standard 80
 select = ["E", "F", "W", "I"]
+
+[tool.ruff.lint]
+ignore = ["B311"]
