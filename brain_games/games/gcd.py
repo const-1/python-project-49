@@ -14,8 +14,8 @@ def find_gcd(a: int, b: int) -> int:
 
 
 def generate_round():
-    num1 = random.randint(1, 100) # NOSONAR
-    num2 = random.randint(1, 100) # NOSONAR
+    num1 = random.randint(1, 100)   # NOSONAR
+    num2 = random.randint(1, 100)   # NOSONAR
     correct_answer = str(find_gcd(num1, num2))
     question = f"{num1} {num2}"
     return question, correct_answer

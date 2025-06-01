@@ -17,6 +17,6 @@ def is_prime(n: int) -> bool:
 
 
 def generate_round():
-    number = random.randint(2, 100)  # Generate number from 2 to 100
+    number = random.randint(2, 100)   # NOSONAR
     correct_answer = "yes" if is_prime(number) else "no"
     return str(number), correct_answer

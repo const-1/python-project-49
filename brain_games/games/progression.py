@@ -12,9 +12,9 @@ def generate_progression(start: int, step: int, length: int) -> list:
 
 
 def generate_round():
-    start = random.randint(1, 50) # NOSONAR
-    step = random.randint(1, 10) # NOSONAR
-    length = random.randint(5, 15) # NOSONAR
+    start = random.randint(1, 50)    # NOSONAR
+    step = random.randint(1, 10)     # NOSONAR
+    length = random.randint(5, 15)   # NOSONAR
     progression = generate_progression(start, step, length)
 
     hidden_index = random.randint(0, len(progression) - 1)
